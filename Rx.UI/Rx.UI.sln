@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.UI", "Rx.UI\Rx.UI.csproj", "{FE4D8028-0AA3-4663-9F08-EF6754A7BA08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rx.UI.Tests", "Rx.UI.Tests\Rx.UI.Tests.csproj", "{7D749BC6-4CC9-4345-AEE3-4DE11109255F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE4D8028-0AA3-4663-9F08-EF6754A7BA08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE4D8028-0AA3-4663-9F08-EF6754A7BA08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE4D8028-0AA3-4663-9F08-EF6754A7BA08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE4D8028-0AA3-4663-9F08-EF6754A7BA08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D749BC6-4CC9-4345-AEE3-4DE11109255F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D749BC6-4CC9-4345-AEE3-4DE11109255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D749BC6-4CC9-4345-AEE3-4DE11109255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D749BC6-4CC9-4345-AEE3-4DE11109255F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
