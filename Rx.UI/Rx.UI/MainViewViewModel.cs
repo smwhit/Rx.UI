@@ -13,26 +13,6 @@ using Rx.UI.Services;
 
 namespace Rx.UI
 {
-    public interface ISchedulerProvider
-    {
-        IScheduler Dispatcher { get; }
-        IScheduler TaskPool { get; }
-    }
-
-    public class SchedulerProvider : ISchedulerProvider
-    {
-
-        public IScheduler Dispatcher
-        {
-            get { return DispatcherScheduler.Current; }
-        }
-
-        public IScheduler TaskPool
-        {
-            get { return TaskPoolScheduler.Default; }
-        }
-    }
-
     public class MainViewViewModel
     {
 

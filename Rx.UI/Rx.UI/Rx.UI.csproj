@@ -68,7 +68,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ISchedulerProvider.cs" />
     <Compile Include="PriceDataViewModel.cs" />
+    <Compile Include="SchedulerProvider.cs" />
     <Compile Include="Services\PriceStream.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
